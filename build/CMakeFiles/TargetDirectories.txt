@@ -1,0 +1,3 @@
+/home/ramos/Desktop/random_stuff/doom_cpp/build/CMakeFiles/Doom_cpp.dir
+/home/ramos/Desktop/random_stuff/doom_cpp/build/CMakeFiles/edit_cache.dir
+/home/ramos/Desktop/random_stuff/doom_cpp/build/CMakeFiles/rebuild_cache.dir
