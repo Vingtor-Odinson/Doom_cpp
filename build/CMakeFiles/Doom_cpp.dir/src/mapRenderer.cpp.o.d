@@ -1,10 +1,7 @@
-CMakeFiles/Doom_cpp.dir/src/engine.cpp.o: \
- /home/glauco/Área\ de\ trabalho/random/Doom_cpp/src/engine.cpp \
- /usr/include/stdc-predef.h \
- /home/glauco/Área\ de\ trabalho/random/Doom_cpp/src/app.hpp \
- /usr/local/include/raylib.h \
+CMakeFiles/Doom_cpp.dir/src/mapRenderer.cpp.o: \
+ /home/glauco/Área\ de\ trabalho/random/Doom_cpp/src/mapRenderer.cpp \
+ /usr/include/stdc-predef.h /usr/local/include/raylib.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
- /home/glauco/Área\ de\ trabalho/random/Doom_cpp/src/engine.hpp \
  /home/glauco/Área\ de\ trabalho/random/Doom_cpp/src/mapRenderer.hpp \
  /home/glauco/Área\ de\ trabalho/random/Doom_cpp/src/utils.hpp \
  /usr/include/c++/13/cmath /usr/include/c++/13/bits/requires_hosted.h \
@@ -63,5 +60,4 @@ CMakeFiles/Doom_cpp.dir/src/engine.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/glauco/Área\ de\ trabalho/random/Doom_cpp/src/settings.hpp
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h

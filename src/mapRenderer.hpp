@@ -14,4 +14,4 @@ public:
 
     void DrawPoints();
     void DrawSegments();
-}
+};

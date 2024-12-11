@@ -2,14 +2,14 @@
 
 class Application;
 
-//class MapRenderer;
+class MapRenderer;
 
 class Engine
 {
 
 private:
     Application* app;
-    //MapRenderer* mapRenderer;
+    MapRenderer* mapRenderer;
 
 public:
 

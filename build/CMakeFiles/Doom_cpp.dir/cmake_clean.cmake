@@ -5,6 +5,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/Doom_cpp.dir/src/engine.cpp.o.d"
   "CMakeFiles/Doom_cpp.dir/src/main.cpp.o"
   "CMakeFiles/Doom_cpp.dir/src/main.cpp.o.d"
+  "CMakeFiles/Doom_cpp.dir/src/mapRenderer.cpp.o"
+  "CMakeFiles/Doom_cpp.dir/src/mapRenderer.cpp.o.d"
+  "CMakeFiles/Doom_cpp.dir/src/utils.cpp.o"
+  "CMakeFiles/Doom_cpp.dir/src/utils.cpp.o.d"
   "Doom_cpp"
   "Doom_cpp.pdb"
 )

@@ -1,7 +1,7 @@
 set(CMAKE_CXX_COMPILER "/usr/bin/c++")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
-set(CMAKE_CXX_COMPILER_VERSION "11.4.0")
+set(CMAKE_CXX_COMPILER_VERSION "13.2.0")
 set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_CXX_COMPILER_WRAPPER "")
 set(CMAKE_CXX_STANDARD_COMPUTED_DEFAULT "17")
@@ -16,18 +16,19 @@ set(CMAKE_CXX23_COMPILE_FEATURES "cxx_std_23")
 
 set(CMAKE_CXX_PLATFORM_ID "Linux")
 set(CMAKE_CXX_SIMULATE_ID "")
-set(CMAKE_CXX_COMPILER_FRONTEND_VARIANT "")
+set(CMAKE_CXX_COMPILER_FRONTEND_VARIANT "GNU")
 set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
 
 set(CMAKE_AR "/usr/bin/ar")
-set(CMAKE_CXX_COMPILER_AR "/usr/bin/gcc-ar-11")
+set(CMAKE_CXX_COMPILER_AR "/usr/bin/gcc-ar-13")
 set(CMAKE_RANLIB "/usr/bin/ranlib")
-set(CMAKE_CXX_COMPILER_RANLIB "/usr/bin/gcc-ranlib-11")
+set(CMAKE_CXX_COMPILER_RANLIB "/usr/bin/gcc-ranlib-13")
 set(CMAKE_LINKER "/usr/bin/ld")
 set(CMAKE_MT "")
+set(CMAKE_TAPI "CMAKE_TAPI-NOTFOUND")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
 set(CMAKE_CXX_COMPILER_WORKS TRUE)
@@ -36,7 +37,7 @@ set(CMAKE_CXX_ABI_COMPILED TRUE)
 set(CMAKE_CXX_COMPILER_ENV_VAR "CXX")
 
 set(CMAKE_CXX_COMPILER_ID_RUN 1)
-set(CMAKE_CXX_SOURCE_FILE_EXTENSIONS C;M;c++;cc;cpp;cxx;m;mm;mpp;CPP;ixx;cppm)
+set(CMAKE_CXX_SOURCE_FILE_EXTENSIONS C;M;c++;cc;cpp;cxx;m;mm;mpp;CPP;ixx;cppm;ccm;cxxm;c++m)
 set(CMAKE_CXX_IGNORE_EXTENSIONS inl;h;hpp;HPP;H;o;O;obj;OBJ;def;DEF;rc;RC)
 
 foreach (lang C OBJC OBJCXX)
@@ -49,6 +50,7 @@ endforeach()
 
 set(CMAKE_CXX_LINKER_PREFERENCE 30)
 set(CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES 1)
+set(CMAKE_CXX_LINKER_DEPFILE_SUPPORTED TRUE)
 
 # Save compiler ABI information.
 set(CMAKE_CXX_SIZEOF_DATA_PTR "8")
@@ -77,7 +79,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/home/ramos/intel/oneapi/vpl/2023.0.0/include;/home/ramos/intel/oneapi/tbb/2021.8.0/include;/home/ramos/intel/oneapi/mpi/2021.8.0/include;/home/ramos/intel/oneapi/mkl/2023.0.0/include;/home/ramos/intel/oneapi/ipp/2021.7.0/include;/home/ramos/intel/oneapi/ippcp/2021.6.3/include;/home/ramos/intel/oneapi/dpl/2022.0.0/linux/include;/home/ramos/intel/oneapi/dpcpp-ct/2023.0.0/include;/home/ramos/intel/oneapi/dnnl/2023.0.0/cpu_dpcpp_gpu_dpcpp/include;/home/ramos/intel/oneapi/dev-utilities/2021.8.0/include;/home/ramos/intel/oneapi/dal/2023.0.0/include;/home/ramos/intel/oneapi/ccl/2021.8.0/include/cpu_gpu_dpcpp;/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/usr/include/c++/13;/usr/include/x86_64-linux-gnu/c++/13;/usr/include/c++/13/backward;/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;m;gcc_s;gcc;c;gcc_s;gcc")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/home/ramos/intel/oneapi/vpl/2023.0.0/lib;/home/ramos/intel/oneapi/mpi/2021.8.0/libfabric/lib;/home/ramos/intel/oneapi/mpi/2021.8.0/lib;/home/ramos/intel/oneapi/dnnl/2023.0.0/cpu_dpcpp_gpu_dpcpp/lib;/home/ramos/intel/oneapi/compiler/2023.0.0/linux/lib;/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib;/home/ramos/intel/oneapi/tbb/2021.8.0/lib/intel64/gcc4.8;/home/ramos/intel/oneapi/mpi/2021.8.0/lib/release;/home/ramos/intel/oneapi/mkl/2023.0.0/lib/intel64;/home/ramos/intel/oneapi/ipp/2021.7.0/lib/intel64;/home/ramos/intel/oneapi/ippcp/2021.6.3/lib/intel64;/home/ramos/intel/oneapi/dal/2023.0.0/lib/intel64;/home/ramos/intel/oneapi/compiler/2023.0.0/linux/compiler/lib/intel64_lin;/home/ramos/intel/oneapi/ccl/2021.8.0/lib/cpu_gpu_dpcpp")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

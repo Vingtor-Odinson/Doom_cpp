@@ -1,19 +1,19 @@
 #include"app.hpp"
+#include<raylib.h>
 #include"engine.hpp"
 #include"mapRenderer.hpp"
 #include"settings.hpp"
 #include"utils.hpp"
-#include<raylib.h>
 
 Engine::Engine( Application* application )
 {
     app = application;
-    //mapRenderer = new MapRenderer(this);
+    mapRenderer = new MapRenderer(this);
 }
 
 Engine::~Engine()
 {
-    //delete mapRenderer;
+    delete mapRenderer;
 }
 
 void Engine::Update()
@@ -23,8 +23,8 @@ void Engine::Update()
 
 void Engine::Draw2d()
 {
-    //mapRenderer->DrawPoints();
-    //mapRenderer->DrawSegments();
+    mapRenderer->DrawPoints();
+    mapRenderer->DrawSegments();
 }
 
 void Engine::Draw3d()
@@ -35,7 +35,8 @@ void Engine::Draw3d()
 void Engine::Draw()
 {  
     BeginDrawing();
-        ClearBackground(BLACK);
-        Draw2d();
+    ClearBackground(BLACK);
+    Draw2d();
+    Draw3d();
     EndDrawing();
 }
