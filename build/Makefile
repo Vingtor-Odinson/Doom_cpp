@@ -201,6 +201,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Doom_cpp.dir/build.make CMakeFiles/Doom_cpp.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/mapLoader.o: src/mapLoader.cpp.o
+.PHONY : src/mapLoader.o
+
+# target to build an object file
+src/mapLoader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Doom_cpp.dir/build.make CMakeFiles/Doom_cpp.dir/src/mapLoader.cpp.o
+.PHONY : src/mapLoader.cpp.o
+
+src/mapLoader.i: src/mapLoader.cpp.i
+.PHONY : src/mapLoader.i
+
+# target to preprocess a source file
+src/mapLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Doom_cpp.dir/build.make CMakeFiles/Doom_cpp.dir/src/mapLoader.cpp.i
+.PHONY : src/mapLoader.cpp.i
+
+src/mapLoader.s: src/mapLoader.cpp.s
+.PHONY : src/mapLoader.s
+
+# target to generate assembly for a file
+src/mapLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Doom_cpp.dir/build.make CMakeFiles/Doom_cpp.dir/src/mapLoader.cpp.s
+.PHONY : src/mapLoader.cpp.s
+
 src/mapRenderer.o: src/mapRenderer.cpp.o
 .PHONY : src/mapRenderer.o
 
@@ -267,6 +291,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/mapLoader.o"
+	@echo "... src/mapLoader.i"
+	@echo "... src/mapLoader.s"
 	@echo "... src/mapRenderer.o"
 	@echo "... src/mapRenderer.i"
 	@echo "... src/mapRenderer.s"
