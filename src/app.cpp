@@ -1,7 +1,7 @@
 #include<raylib.h>
-#include"app.hpp"
-#include"settings.hpp"
-#include"engine.hpp"
+#include"includes/app.hpp"
+#include"includes/settings.hpp"
+#include"includes/engine.hpp"
 
 Application::Application()
 {

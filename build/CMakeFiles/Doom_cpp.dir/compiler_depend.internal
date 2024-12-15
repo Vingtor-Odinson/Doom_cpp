@@ -3,20 +3,20 @@
 
 CMakeFiles/Doom_cpp.dir/src/app.cpp.o
  /home/glauco/Área de trabalho/random/Doom_cpp/src/app.cpp
- /home/glauco/Área de trabalho/random/Doom_cpp/src/app.hpp
- /home/glauco/Área de trabalho/random/Doom_cpp/src/engine.hpp
- /home/glauco/Área de trabalho/random/Doom_cpp/src/settings.hpp
+ /home/glauco/Área de trabalho/random/Doom_cpp/src/includes/app.hpp
+ /home/glauco/Área de trabalho/random/Doom_cpp/src/includes/engine.hpp
+ /home/glauco/Área de trabalho/random/Doom_cpp/src/includes/settings.hpp
  /usr/include/stdc-predef.h
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h
  /usr/local/include/raylib.h
 
 CMakeFiles/Doom_cpp.dir/src/engine.cpp.o
  /home/glauco/Área de trabalho/random/Doom_cpp/src/engine.cpp
- /home/glauco/Área de trabalho/random/Doom_cpp/src/app.hpp
- /home/glauco/Área de trabalho/random/Doom_cpp/src/engine.hpp
- /home/glauco/Área de trabalho/random/Doom_cpp/src/mapRenderer.hpp
- /home/glauco/Área de trabalho/random/Doom_cpp/src/settings.hpp
- /home/glauco/Área de trabalho/random/Doom_cpp/src/utils.hpp
+ /home/glauco/Área de trabalho/random/Doom_cpp/src/includes/app.hpp
+ /home/glauco/Área de trabalho/random/Doom_cpp/src/includes/engine.hpp
+ /home/glauco/Área de trabalho/random/Doom_cpp/src/includes/mapRenderer.hpp
+ /home/glauco/Área de trabalho/random/Doom_cpp/src/includes/settings.hpp
+ /home/glauco/Área de trabalho/random/Doom_cpp/src/includes/utils.hpp
  /usr/include/alloca.h
  /usr/include/c++/13/bits/cpp_type_traits.h
  /usr/include/c++/13/bits/requires_hosted.h
@@ -86,15 +86,13 @@ CMakeFiles/Doom_cpp.dir/src/engine.cpp.o
 
 CMakeFiles/Doom_cpp.dir/src/main.cpp.o
  /home/glauco/Área de trabalho/random/Doom_cpp/src/main.cpp
- /home/glauco/Área de trabalho/random/Doom_cpp/src/app.hpp
+ /home/glauco/Área de trabalho/random/Doom_cpp/src/includes/app.hpp
  /usr/include/stdc-predef.h
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h
- /usr/local/include/raylib.h
 
 CMakeFiles/Doom_cpp.dir/src/mapRenderer.cpp.o
  /home/glauco/Área de trabalho/random/Doom_cpp/src/mapRenderer.cpp
- /home/glauco/Área de trabalho/random/Doom_cpp/src/mapRenderer.hpp
- /home/glauco/Área de trabalho/random/Doom_cpp/src/utils.hpp
+ /home/glauco/Área de trabalho/random/Doom_cpp/src/includes/mapRenderer.hpp
+ /home/glauco/Área de trabalho/random/Doom_cpp/src/includes/utils.hpp
  /usr/include/alloca.h
  /usr/include/c++/13/bits/cpp_type_traits.h
  /usr/include/c++/13/bits/requires_hosted.h
