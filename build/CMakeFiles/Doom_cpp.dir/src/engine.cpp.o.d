@@ -1,12 +1,12 @@
 CMakeFiles/Doom_cpp.dir/src/engine.cpp.o: \
  /home/glauco/Área\ de\ trabalho/random/Doom_cpp/src/engine.cpp \
  /usr/include/stdc-predef.h \
- /home/glauco/Área\ de\ trabalho/random/Doom_cpp/src/app.hpp \
+ /home/glauco/Área\ de\ trabalho/random/Doom_cpp/src/includes/app.hpp \
  /usr/local/include/raylib.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
- /home/glauco/Área\ de\ trabalho/random/Doom_cpp/src/engine.hpp \
- /home/glauco/Área\ de\ trabalho/random/Doom_cpp/src/mapRenderer.hpp \
- /home/glauco/Área\ de\ trabalho/random/Doom_cpp/src/utils.hpp \
+ /home/glauco/Área\ de\ trabalho/random/Doom_cpp/src/includes/engine.hpp \
+ /home/glauco/Área\ de\ trabalho/random/Doom_cpp/src/includes/map/mapRenderer.hpp \
+ /home/glauco/Área\ de\ trabalho/random/Doom_cpp/src/includes/utils.hpp \
  /usr/include/c++/13/cmath /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -64,4 +64,4 @@ CMakeFiles/Doom_cpp.dir/src/engine.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/glauco/Área\ de\ trabalho/random/Doom_cpp/src/settings.hpp
+ /home/glauco/Área\ de\ trabalho/random/Doom_cpp/src/includes/settings.hpp

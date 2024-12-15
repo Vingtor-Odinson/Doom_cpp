@@ -1,5 +1,4 @@
-#include"raylib.h"
-#include<app.hpp>
+#include"includes/app.hpp"
 
 int main()
 {

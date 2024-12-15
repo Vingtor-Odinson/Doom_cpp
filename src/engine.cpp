@@ -1,9 +1,9 @@
-#include"app.hpp"
+#include"includes/app.hpp"
 #include<raylib.h>
-#include"engine.hpp"
-#include"mapRenderer.hpp"
-#include"settings.hpp"
-#include"utils.hpp"
+#include"includes/engine.hpp"
+#include"includes/map/mapRenderer.hpp"
+#include"includes/settings.hpp"
+#include"includes/utils.hpp"
 
 Engine::Engine( Application* application )
 {

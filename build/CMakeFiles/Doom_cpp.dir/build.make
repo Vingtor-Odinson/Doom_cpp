@@ -111,10 +111,24 @@ CMakeFiles/Doom_cpp.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Doom_cpp.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/glauco/Área de trabalho/random/Doom_cpp/src/main.cpp" -o CMakeFiles/Doom_cpp.dir/src/main.cpp.s
 
+CMakeFiles/Doom_cpp.dir/src/mapLoader.cpp.o: CMakeFiles/Doom_cpp.dir/flags.make
+CMakeFiles/Doom_cpp.dir/src/mapLoader.cpp.o: /home/glauco/Área\ de\ trabalho/random/Doom_cpp/src/mapLoader.cpp
+CMakeFiles/Doom_cpp.dir/src/mapLoader.cpp.o: CMakeFiles/Doom_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/glauco/Área de trabalho/random/Doom_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Doom_cpp.dir/src/mapLoader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Doom_cpp.dir/src/mapLoader.cpp.o -MF CMakeFiles/Doom_cpp.dir/src/mapLoader.cpp.o.d -o CMakeFiles/Doom_cpp.dir/src/mapLoader.cpp.o -c "/home/glauco/Área de trabalho/random/Doom_cpp/src/mapLoader.cpp"
+
+CMakeFiles/Doom_cpp.dir/src/mapLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Doom_cpp.dir/src/mapLoader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/glauco/Área de trabalho/random/Doom_cpp/src/mapLoader.cpp" > CMakeFiles/Doom_cpp.dir/src/mapLoader.cpp.i
+
+CMakeFiles/Doom_cpp.dir/src/mapLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Doom_cpp.dir/src/mapLoader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/glauco/Área de trabalho/random/Doom_cpp/src/mapLoader.cpp" -o CMakeFiles/Doom_cpp.dir/src/mapLoader.cpp.s
+
 CMakeFiles/Doom_cpp.dir/src/mapRenderer.cpp.o: CMakeFiles/Doom_cpp.dir/flags.make
 CMakeFiles/Doom_cpp.dir/src/mapRenderer.cpp.o: /home/glauco/Área\ de\ trabalho/random/Doom_cpp/src/mapRenderer.cpp
 CMakeFiles/Doom_cpp.dir/src/mapRenderer.cpp.o: CMakeFiles/Doom_cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/glauco/Área de trabalho/random/Doom_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Doom_cpp.dir/src/mapRenderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/glauco/Área de trabalho/random/Doom_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Doom_cpp.dir/src/mapRenderer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Doom_cpp.dir/src/mapRenderer.cpp.o -MF CMakeFiles/Doom_cpp.dir/src/mapRenderer.cpp.o.d -o CMakeFiles/Doom_cpp.dir/src/mapRenderer.cpp.o -c "/home/glauco/Área de trabalho/random/Doom_cpp/src/mapRenderer.cpp"
 
 CMakeFiles/Doom_cpp.dir/src/mapRenderer.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/Doom_cpp.dir/src/mapRenderer.cpp.s: cmake_force
 CMakeFiles/Doom_cpp.dir/src/utils.cpp.o: CMakeFiles/Doom_cpp.dir/flags.make
 CMakeFiles/Doom_cpp.dir/src/utils.cpp.o: /home/glauco/Área\ de\ trabalho/random/Doom_cpp/src/utils.cpp
 CMakeFiles/Doom_cpp.dir/src/utils.cpp.o: CMakeFiles/Doom_cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/glauco/Área de trabalho/random/Doom_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Doom_cpp.dir/src/utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/glauco/Área de trabalho/random/Doom_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Doom_cpp.dir/src/utils.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Doom_cpp.dir/src/utils.cpp.o -MF CMakeFiles/Doom_cpp.dir/src/utils.cpp.o.d -o CMakeFiles/Doom_cpp.dir/src/utils.cpp.o -c "/home/glauco/Área de trabalho/random/Doom_cpp/src/utils.cpp"
 
 CMakeFiles/Doom_cpp.dir/src/utils.cpp.i: cmake_force
@@ -144,6 +158,7 @@ Doom_cpp_OBJECTS = \
 "CMakeFiles/Doom_cpp.dir/src/app.cpp.o" \
 "CMakeFiles/Doom_cpp.dir/src/engine.cpp.o" \
 "CMakeFiles/Doom_cpp.dir/src/main.cpp.o" \
+"CMakeFiles/Doom_cpp.dir/src/mapLoader.cpp.o" \
 "CMakeFiles/Doom_cpp.dir/src/mapRenderer.cpp.o" \
 "CMakeFiles/Doom_cpp.dir/src/utils.cpp.o"
 
@@ -153,11 +168,12 @@ Doom_cpp_EXTERNAL_OBJECTS =
 Doom_cpp: CMakeFiles/Doom_cpp.dir/src/app.cpp.o
 Doom_cpp: CMakeFiles/Doom_cpp.dir/src/engine.cpp.o
 Doom_cpp: CMakeFiles/Doom_cpp.dir/src/main.cpp.o
+Doom_cpp: CMakeFiles/Doom_cpp.dir/src/mapLoader.cpp.o
 Doom_cpp: CMakeFiles/Doom_cpp.dir/src/mapRenderer.cpp.o
 Doom_cpp: CMakeFiles/Doom_cpp.dir/src/utils.cpp.o
 Doom_cpp: CMakeFiles/Doom_cpp.dir/build.make
 Doom_cpp: CMakeFiles/Doom_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/glauco/Área de trabalho/random/Doom_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Doom_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/glauco/Área de trabalho/random/Doom_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Doom_cpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Doom_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
