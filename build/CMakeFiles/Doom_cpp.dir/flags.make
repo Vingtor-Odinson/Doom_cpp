@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/glauco/Área de trabalho/random/Doom_cpp/src" -I"/home/glauco/Área de trabalho/random/Doom_cpp/src/includes"
+CXX_INCLUDES = -I/home/glauco/Desktop/random/Doom_cpp/src -I/home/glauco/Desktop/random/Doom_cpp/src/includes
 
 CXX_FLAGS = -std=gnu++11
 
